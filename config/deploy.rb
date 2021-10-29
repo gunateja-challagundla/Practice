@@ -5,7 +5,7 @@ server '54.82.107.31', port: 22, roles: [:web, :app, :db], primary: true
 #set :repo_url,        'ssh://APKA45X7PM4KFPLCSJVF@git-codecommit.ap-south-1.amazonaws.com/v1/repos/Survey2Connect'
 set :repo_url,        'https://github.com/gunateja-challagundla/Practice.git'
 set :git_http_username, 'gunateja.challagundla@gmail.com'
-set :git_http_password, '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'
+set :git_http_password, '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'
 set :application,     'ruby'
 set :user,            'ubuntu'
 set :puma_threads,    [5, 20]
